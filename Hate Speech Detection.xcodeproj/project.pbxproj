@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1896B3626787C6200F49A7A /* Tweet Analyser.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E1896B3526787C6200F49A7A /* Tweet Analyser.mlmodel */; };
 		E1C93D8C26772CAD00F6CC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C93D8B26772CAD00F6CC44 /* AppDelegate.swift */; };
 		E1C93D8E26772CAD00F6CC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C93D8D26772CAD00F6CC44 /* SceneDelegate.swift */; };
 		E1C93D9026772CAD00F6CC44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C93D8F26772CAD00F6CC44 /* ContentView.swift */; };
 		E1C93D9226772CAE00F6CC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C93D9126772CAE00F6CC44 /* Assets.xcassets */; };
 		E1C93D9526772CAE00F6CC44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C93D9426772CAE00F6CC44 /* Preview Assets.xcassets */; };
 		E1C93D9826772CAE00F6CC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C93D9626772CAE00F6CC44 /* LaunchScreen.storyboard */; };
+		E1C93DA026772CC500F6CC44 /* Tweet Analyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C93D9F26772CC500F6CC44 /* Tweet Analyser.swift */; };
+		E1C93DA226772CD500F6CC44 /* Text Analyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C93DA126772CD500F6CC44 /* Text Analyser.swift */; };
+		E1C93DA526772D6900F6CC44 /* SunburstDiagram in Frameworks */ = {isa = PBXBuildFile; productRef = E1C93DA426772D6900F6CC44 /* SunburstDiagram */; };
+		E1C93DA826772D7D00F6CC44 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E1C93DA726772D7D00F6CC44 /* SwiftUICharts */; };
+		E1C93DAB26772D9000F6CC44 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E1C93DAA26772D9000F6CC44 /* SwiftyJSON */; };
+		E1C93DAE26772D9F00F6CC44 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = E1C93DAD26772D9F00F6CC44 /* Swifter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1896B3526787C6200F49A7A /* Tweet Analyser.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Tweet Analyser.mlmodel"; sourceTree = "<group>"; };
 		E1C93D8826772CAD00F6CC44 /* Hate Speech Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hate Speech Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C93D8B26772CAD00F6CC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C93D8D26772CAD00F6CC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		E1C93D9426772CAE00F6CC44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1C93D9726772CAE00F6CC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C93D9926772CAE00F6CC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C93D9F26772CC500F6CC44 /* Tweet Analyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tweet Analyser.swift"; sourceTree = "<group>"; };
+		E1C93DA126772CD500F6CC44 /* Text Analyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text Analyser.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C93DAB26772D9000F6CC44 /* SwiftyJSON in Frameworks */,
+				E1C93DA526772D6900F6CC44 /* SunburstDiagram in Frameworks */,
+				E1C93DA826772D7D00F6CC44 /* SwiftUICharts in Frameworks */,
+				E1C93DAE26772D9F00F6CC44 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +70,12 @@
 		E1C93D8A26772CAD00F6CC44 /* Hate Speech Detection */ = {
 			isa = PBXGroup;
 			children = (
+				E1896B3526787C6200F49A7A /* Tweet Analyser.mlmodel */,
 				E1C93D8B26772CAD00F6CC44 /* AppDelegate.swift */,
 				E1C93D8D26772CAD00F6CC44 /* SceneDelegate.swift */,
 				E1C93D8F26772CAD00F6CC44 /* ContentView.swift */,
+				E1C93D9F26772CC500F6CC44 /* Tweet Analyser.swift */,
+				E1C93DA126772CD500F6CC44 /* Text Analyser.swift */,
 				E1C93D9126772CAE00F6CC44 /* Assets.xcassets */,
 				E1C93D9626772CAE00F6CC44 /* LaunchScreen.storyboard */,
 				E1C93D9926772CAE00F6CC44 /* Info.plist */,
@@ -91,6 +108,12 @@
 			dependencies = (
 			);
 			name = "Hate Speech Detection";
+			packageProductDependencies = (
+				E1C93DA426772D6900F6CC44 /* SunburstDiagram */,
+				E1C93DA726772D7D00F6CC44 /* SwiftUICharts */,
+				E1C93DAA26772D9000F6CC44 /* SwiftyJSON */,
+				E1C93DAD26772D9F00F6CC44 /* Swifter */,
+			);
 			productName = "Hate Speech Detection";
 			productReference = E1C93D8826772CAD00F6CC44 /* Hate Speech Detection.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +141,12 @@
 				Base,
 			);
 			mainGroup = E1C93D7F26772CAC00F6CC44;
+			packageReferences = (
+				E1C93DA326772D6900F6CC44 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */,
+				E1C93DA626772D7D00F6CC44 /* XCRemoteSwiftPackageReference "ChartView" */,
+				E1C93DA926772D9000F6CC44 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				E1C93DAC26772D9F00F6CC44 /* XCRemoteSwiftPackageReference "Swifter" */,
+			);
 			productRefGroup = E1C93D8926772CAD00F6CC44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +176,10 @@
 			files = (
 				E1C93D8C26772CAD00F6CC44 /* AppDelegate.swift in Sources */,
 				E1C93D8E26772CAD00F6CC44 /* SceneDelegate.swift in Sources */,
+				E1C93DA226772CD500F6CC44 /* Text Analyser.swift in Sources */,
 				E1C93D9026772CAD00F6CC44 /* ContentView.swift in Sources */,
+				E1896B3626787C6200F49A7A /* Tweet Analyser.mlmodel in Sources */,
+				E1C93DA026772CC500F6CC44 /* Tweet Analyser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +377,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1C93DA326772D6900F6CC44 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lludo/SwiftSunburstDiagram.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		E1C93DA626772D7D00F6CC44 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+		E1C93DA926772D9000F6CC44 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		E1C93DAC26772D9F00F6CC44 /* XCRemoteSwiftPackageReference "Swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattdonnelly/Swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1C93DA426772D6900F6CC44 /* SunburstDiagram */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C93DA326772D6900F6CC44 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */;
+			productName = SunburstDiagram;
+		};
+		E1C93DA726772D7D00F6CC44 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C93DA626772D7D00F6CC44 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		E1C93DAA26772D9000F6CC44 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C93DA926772D9000F6CC44 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		E1C93DAD26772D9F00F6CC44 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1C93DAC26772D9F00F6CC44 /* XCRemoteSwiftPackageReference "Swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1C93D8026772CAC00F6CC44 /* Project object */;
 }

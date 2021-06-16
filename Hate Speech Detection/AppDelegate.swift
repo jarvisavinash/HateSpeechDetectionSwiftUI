@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Hate Speech Detection
 //
-//  Created by Avinash on 14/06/21.
-//
+//  Created by Avinash Patil on 14/06/21.
+//  Copyright © 2021 Avinash Patil. All rights reserved.
 
 import UIKit
 
